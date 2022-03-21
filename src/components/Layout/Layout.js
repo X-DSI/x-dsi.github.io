@@ -1,13 +1,17 @@
 import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import { LayoutWrapper } from "./Layout.styled";
+import { LayoutWrapper, LayoutContent } from "./Layout.styled";
 
 const Layout = (props) => {
   return (
     <LayoutWrapper>
-      <Header />
-      {props.children}
+      <div className="header">
+        <Header />
+      </div>
+      
+      <LayoutContent>{props.children}</LayoutContent>
+      {/* {props.children} */}
       <Footer />
     </LayoutWrapper>
   );
