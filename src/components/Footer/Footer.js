@@ -2,11 +2,7 @@ import React from "react";
 import { Fwrapper } from "./Footer.styled";
 
 const Footer = () => {
-  return (
-    <div>
-      <Fwrapper>Footer</Fwrapper>
-    </div>
-  );
+  return <Fwrapper>Footer</Fwrapper>;
 };
 
 export default Footer;

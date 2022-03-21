@@ -13,5 +13,6 @@ export const LayoutWrapper = styled.div`
 `;
 
 export const LayoutContent = styled.div`
-  display: flex;
+  /* display: flex;
+  flex-direction: column; */
 `;

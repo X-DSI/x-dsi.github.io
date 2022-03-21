@@ -6,7 +6,7 @@ export const Hwrapper = styled.h1`
   z-index: 10;
   height: 80px;
   font-size: 38px;
-  width: 100%;
+  width: 100vw;
   /* margin: 20px; */
   background-color: gray;
 `;

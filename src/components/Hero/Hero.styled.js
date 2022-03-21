@@ -5,7 +5,7 @@ export const HeroWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: lightgray;
+  background-color: lightslategray;
   z-index: 1;
   position: relative;
   height: 100vh;
