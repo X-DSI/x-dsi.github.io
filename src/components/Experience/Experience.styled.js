@@ -4,13 +4,14 @@ export const Ewrapper = styled.div`
   display: flex;
   justify-content: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: lightblue;
 `;
 
 export const Econtainer = styled.div`
   .e-roles {
     font-size: 100px;
+    margin-bottom: 50px;
   }
 
   .react-tabs__tab--selected {

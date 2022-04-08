@@ -1,8 +1,14 @@
 import React from "react";
-import { Pwrapper } from "./Photography.styled";
+import { PhotoContainer, Pwrapper } from "./Photography.styled";
 
 const Photography = () => {
-  return <Pwrapper>Photography</Pwrapper>;
+  return (
+    <Pwrapper>
+      <PhotoContainer>
+        <h1 className="photoTitle">My Photos...</h1>
+      </PhotoContainer>
+    </Pwrapper>
+  );
 };
 
 export default Photography;

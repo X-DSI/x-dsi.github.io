@@ -5,5 +5,5 @@ export const Fwrapper = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 `;

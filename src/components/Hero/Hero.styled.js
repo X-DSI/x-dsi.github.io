@@ -9,7 +9,7 @@ export const HeroWrapper = styled.div`
   z-index: 1;
   position: relative;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   margin-top: -80px;
 `;
 

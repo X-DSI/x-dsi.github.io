@@ -4,9 +4,9 @@ export const LayoutWrapper = styled.div`
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  max-width: 100vw;
+  width: 1500px;
   background-color: lightgray;
-
+  margin: 0 auto;
   .header {
     z-index: 3;
   }
