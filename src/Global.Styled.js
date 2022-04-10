@@ -1,4 +1,4 @@
-import { createGlobalStyle, css } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 * {
@@ -32,7 +32,7 @@ const GlobalStyles = createGlobalStyle`
 }
 
 html {
-    --background-color: #fafafa;
+    --background-color: #fff;
 }
 `;
 export default GlobalStyles;

@@ -5,23 +5,57 @@ export const HeroWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: lightslategray;
+  background-color: white;
   z-index: 1;
   position: relative;
   height: 100vh;
   width: 100%;
   margin-top: -80px;
+  padding-top: 80px;
 `;
 
 export const HeroContainer = styled.div`
-  .roles {
-    font-size: 100px;
-  }
-  .name-element {
-    font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+
+  .hero-main {
+    /* justify-self: center; */
+    .roles {
+      font-size: 150px;
+    }
+    .name-element {
+      width: 100%;
+      margin: 0 auto;
+      font-size: 25px;
+    }
   }
 `;
 
 export const HeroIcons = styled.div`
   text-align: center;
+
+  margin-top: 90px;
+`;
+
+export const Icon = styled.a`
+  color: inherit;
+  border-bottom: none;
+  transition: all 0.3s linear;
+  :hover {
+    border-bottom: 3px solid black;
+  }
+  svg {
+    position: relative;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+    margin: 0 40px;
+
+    :hover {
+      bottom: 6px;
+    }
+  }
 `;
