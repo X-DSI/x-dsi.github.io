@@ -1,6 +1,7 @@
 import React from "react";
 import { HeroContainer, HeroIcons, HeroWrapper, Icon } from "./Hero.styled";
 import { FaTwitter, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import TypeAnimation from "react-type-animation";
 
 const Hero = () => {
   return (
@@ -10,8 +11,26 @@ const Hero = () => {
           <h5 className="name-element">
             Hey there, This is Daniel Syles Immanuel!
           </h5>
+
           {/* The Element below should have the React Typist class for Animation */}
-          <h1 className="roles">I'm a Developer...</h1>
+          <h3 className="roles">
+            I'm a{" "}
+            <TypeAnimation
+              cursor={true}
+              sequence={[
+                "Developer...",
+                2000,
+                "Photographer...",
+                2000,
+                "Human Being...",
+                2000,
+                "Developer...",
+                2000,
+              ]}
+              wrapper="a"
+              repeat={3}
+            />
+          </h3>
         </div>
         <HeroIcons>
           <Icon href="https://twitter.com/SylesDaniel" target="_blank">

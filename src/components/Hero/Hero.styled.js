@@ -24,7 +24,7 @@ export const HeroContainer = styled.div`
   .hero-main {
     /* justify-self: center; */
     .roles {
-      font-size: 150px;
+      font-size: 120px;
     }
     .name-element {
       width: 100%;
