@@ -5,7 +5,7 @@ export const Ewrapper = styled.div`
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background-color: lightblue;
+  background-color: white;
 `;
 
 export const Econtainer = styled.div`

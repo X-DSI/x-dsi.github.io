@@ -31,6 +31,10 @@ export const HeroContainer = styled.div`
       margin: 0 auto;
       font-size: 25px;
     }
+    .typist-anime {
+      width: 1400px;
+      height: 400px;
+    }
   }
 `;
 

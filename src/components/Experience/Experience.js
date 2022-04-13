@@ -8,16 +8,7 @@ const Experience = () => {
   return (
     <Ewrapper>
       <Econtainer>
-        <h1 className="e-roles">
-          {" "}
-          My{" "}
-          <TypeAnimation
-            cursor={true}
-            sequence={["Experience...", 2000, "Work...", 2000]}
-            wrapper="a"
-            repeat={3}
-          />
-        </h1>
+        <h1 className="e-roles">My Experience</h1>
         <Etabs>
           <Tabs>
             <TabList>

@@ -11,26 +11,27 @@ const Hero = () => {
           <h5 className="name-element">
             Hey there, This is Daniel Syles Immanuel!
           </h5>
-
-          {/* The Element below should have the React Typist class for Animation */}
-          <h3 className="roles">
-            I'm a{" "}
-            <TypeAnimation
-              cursor={true}
-              sequence={[
-                "Developer...",
-                2000,
-                "Photographer...",
-                2000,
-                "Human Being...",
-                2000,
-                "Developer...",
-                2000,
-              ]}
-              wrapper="a"
-              repeat={3}
-            />
-          </h3>
+          <div className="typist-anime">
+            {/* The Element below should have the React Typist class for Animation */}
+            <h3 className="roles">
+              I'm a{" "}
+              <TypeAnimation
+                cursor={true}
+                sequence={[
+                  "Developer...",
+                  2000,
+                  "Photographer...",
+                  2000,
+                  "Human Being...",
+                  2000,
+                  "Developer...",
+                  2000,
+                ]}
+                wrapper="a"
+                repeat={Infinity}
+              />
+            </h3>
+          </div>
         </div>
         <HeroIcons>
           <Icon href="https://twitter.com/SylesDaniel" target="_blank">
