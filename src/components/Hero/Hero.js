@@ -24,7 +24,7 @@ const Hero = () => {
                   2000,
                   "an Editor...",
                   2000,
-                  "a Cinematographer...",
+                  "a DOP...",
                   2000,
                   "a Colorist...",
                   2000,

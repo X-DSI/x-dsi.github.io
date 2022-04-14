@@ -23,7 +23,7 @@ export const HeroContainer = styled.div`
   .hero-main {
     /* justify-self: center; */
     .roles {
-      font-size: 120px;
+      font-size: 110px;
     }
     .name-element {
       width: 100%;
@@ -31,7 +31,7 @@ export const HeroContainer = styled.div`
       font-size: 25px;
     }
     .typist-anime {
-      width: 1400px;
+      width: 1300px;
       height: 400px;
       display: flex;
       justify-content: center;
