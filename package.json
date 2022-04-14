@@ -11,6 +11,7 @@
     "react-icons": "^4.3.1",
     "react-scripts": "^5.0.0",
     "react-tabs": "^4.0.1",
+    "react-theme-toggle-button": "^1.1.0",
     "react-type-animation": "^1.1.2",
     "react-typist": "^2.0.5",
     "styled-components": "^5.3.3",

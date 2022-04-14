@@ -8,9 +8,9 @@ const Hero = () => {
     <HeroWrapper>
       <HeroContainer>
         <div className="hero-main">
-          <h5 className="name-element">
+          {/* <h5 className="name-element">
             Hey there, This is Daniel Syles Immanuel!
-          </h5>
+          </h5> */}
           <div className="typist-anime">
             {/* The Element below should have the React Typist class for Animation */}
             <h3 className="roles">
