@@ -15,6 +15,7 @@ export const Hcontainer = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
+  color: ${({ theme }) => theme.colors.primary};
 `;
 
 export const Hul = styled.ul`
@@ -25,6 +26,7 @@ export const Hul = styled.ul`
   margin: 0 auto;
   font-size: 20px;
   height: 100%;
+  color: ${({ theme }) => theme.colors.primary};
 
   li {
     display: flex;

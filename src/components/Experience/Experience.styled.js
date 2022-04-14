@@ -11,6 +11,7 @@ export const Econtainer = styled.div`
   .e-roles {
     font-size: 100px;
     margin-bottom: 50px;
+    color: ${({ theme }) => theme.colors.primary};
   }
 
   .react-tabs__tab--selected {

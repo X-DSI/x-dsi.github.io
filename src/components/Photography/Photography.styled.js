@@ -8,6 +8,7 @@ export const Pwrapper = styled.div`
 `;
 
 export const PhotoContainer = styled.div`
+  color: ${({ theme }) => theme.colors.primary};
   .photoTitle {
     font-size: 80px;
   }

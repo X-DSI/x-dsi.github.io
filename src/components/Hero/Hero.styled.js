@@ -25,7 +25,6 @@ export const HeroContainer = styled.div`
     .roles {
       font-size: 110px;
       color: ${({ theme }) => theme.colors.primary};
-      }};
     }
     .name-element {
       width: 100%;
@@ -44,7 +43,7 @@ export const HeroContainer = styled.div`
 
 export const HeroIcons = styled.div`
   text-align: center;
-
+  color: ${({ theme }) => theme.colors.primary};
   margin-top: 90px;
 `;
 
