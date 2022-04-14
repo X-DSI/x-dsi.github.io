@@ -8,7 +8,6 @@ export const Hwrapper = styled.nav`
   height: 80px;
   width: 100%;
   /* margin: 20px; */
-  background-color: white;
 `;
 
 export const Hcontainer = styled.div`
