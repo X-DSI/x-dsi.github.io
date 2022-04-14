@@ -14,17 +14,21 @@ const Hero = () => {
           <div className="typist-anime">
             {/* The Element below should have the React Typist class for Animation */}
             <h3 className="roles">
-              I'm a{" "}
+              I'm{" "}
               <TypeAnimation
                 cursor={true}
                 sequence={[
-                  "Developer...",
+                  "a Developer...",
                   2000,
-                  "Photographer...",
+                  "a Photographer...",
                   2000,
-                  "Human Being...",
+                  "an Editor...",
                   2000,
-                  "Developer...",
+                  "a Cinematographer...",
+                  2000,
+                  "a Colorist...",
+                  2000,
+                  "a Human Being...",
                   2000,
                 ]}
                 wrapper="a"
