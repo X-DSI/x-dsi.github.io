@@ -24,6 +24,8 @@ export const HeroContainer = styled.div`
     /* justify-self: center; */
     .roles {
       font-size: 110px;
+      color: ${({ theme }) => theme.colors.primary};
+      }};
     }
     .name-element {
       width: 100%;

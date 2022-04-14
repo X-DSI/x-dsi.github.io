@@ -3,9 +3,7 @@ import React, { useState } from "react";
 import ToggleButton from "react-theme-toggle-button";
 import "react-theme-toggle-button/dist/index.css";
 
-const Header = () => {
-  const [isDark, setIsDark] = useState(false);
-
+const Header = ({ isDarkTheme, themeChangefunc }) => {
   return (
     <Hwrapper>
       <Hcontainer>
@@ -16,7 +14,7 @@ const Header = () => {
           <li>Resume</li>
         </Hul>
         <div>
-          <ToggleButton isDark={isDark} onChange={() => setIsDark(!isDark)} />
+          <ToggleButton isDark={isDarkTheme} onChange={themeChangefunc} />
         </div>
       </Hcontainer>
     </Hwrapper>
