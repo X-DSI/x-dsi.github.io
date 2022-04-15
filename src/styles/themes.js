@@ -18,7 +18,7 @@ export const darkTheme = {
   colors: {
     accent_border: "#102e66",
     secondary: "#7eabff",
-    primary: "#2873ff",
+    primary: "#ffffff",
     accent_hover: "#528fff",
     background_1: "#000000",
     background_2: "#061229",
@@ -43,7 +43,7 @@ export const lightTheme = {
   colors: {
     accent_border: "#efd199",
     secondary: "#815400",
-    primary: "#d78c00",
+    primary: "#000000",
     accent_hover: "#ad7000",
     background_1: "#ffffff",
     background_2: "#f9edd6",
