@@ -15,8 +15,14 @@ export const LayoutWrapper = styled.div`
 export const LayoutContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
+
   margin: 0 auto;
+
+  @media screen and (max-width: 1500px) {
+    max-width: 100%;
+  }
   .header {
     z-index: 3;
   }

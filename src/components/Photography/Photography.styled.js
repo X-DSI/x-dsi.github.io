@@ -4,7 +4,6 @@ export const Pwrapper = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100vh;
   margin-top: -80px;
   padding-top: 80px;
   margin-bottom: -30px;
@@ -13,7 +12,10 @@ export const Pwrapper = styled.div`
 
 export const PhotoContainer = styled.div`
   color: ${({ theme }) => theme.colors.primary};
-  .photoTitle {
-    font-size: 80px;
+
+  .photo-gallery {
+    img {
+      object-fit: cover;
+    }
   }
 `;
