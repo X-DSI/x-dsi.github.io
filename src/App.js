@@ -7,15 +7,17 @@ import Photography from "./components/Photography/Photography";
 
 function App() {
   return (
-    <Router>
+    <Layout>
       <div className="App">
-        <Layout>
-          <Hero />
-          <Experience />
-          <Photography />
-        </Layout>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Hero />}></Route>
+            <Route path="experience" element={<Experience />}></Route>
+            <Route path="photos" element={<Photography />}></Route>
+          </Routes>
+        </Router>
       </div>
-    </Router>
+    </Layout>
   );
 }
 
