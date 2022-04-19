@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Hwrapper = styled.nav`
+export const Hwrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10,7 +10,7 @@ export const Hwrapper = styled.nav`
   /* margin: 20px; */
 `;
 
-export const Hcontainer = styled.div`
+export const Hcontainer = styled.nav`
   display: flex;
   align-items: center;
   width: 100%;

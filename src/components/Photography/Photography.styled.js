@@ -5,6 +5,10 @@ export const Pwrapper = styled.div`
   justify-content: center;
   width: 100%;
   height: 100vh;
+  margin-top: -80px;
+  padding-top: 80px;
+  margin-bottom: -30px;
+  padding-bottom: 30px;
 `;
 
 export const PhotoContainer = styled.div`

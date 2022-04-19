@@ -11,6 +11,8 @@ export const HeroWrapper = styled.div`
   width: 100%;
   margin-top: -80px;
   padding-top: 80px;
+  margin-bottom: -30px;
+  padding-bottom: 30px;
 `;
 
 export const HeroContainer = styled.div`
