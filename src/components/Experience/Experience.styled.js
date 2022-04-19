@@ -17,11 +17,11 @@ export const Econtainer = styled.div`
   .react-tabs__tab--selected {
     /* background-color: lightblue; */
     /* border-color: red; */
-    background: lightgray;
+    background: white;
   }
 
   .react-tabs__tab:focus:after {
-    background: lightblue;
+    background: black;
   }
 `;
 
