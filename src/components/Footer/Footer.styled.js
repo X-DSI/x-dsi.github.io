@@ -7,4 +7,5 @@ export const Fwrapper = styled.div`
   align-items: center;
   width: 100%;
   height: 30px;
+  color: ${({ theme }) => theme.colors.primary};
 `;
