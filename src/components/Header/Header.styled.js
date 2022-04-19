@@ -36,6 +36,13 @@ export const Hul = styled.ul`
     margin: 20px 0px;
     border-bottom: none;
     transition: all 0.3s linear;
+    a,
+    a:visited,
+    a:hover,
+    a:active {
+      text-decoration: none;
+      color: inherit;
+    }
     :hover {
       border-bottom: 3px solid black;
     }
@@ -45,4 +52,11 @@ export const Hul = styled.ul`
 export const Hlogo = styled.a`
   font-weight: 900;
   font-size: 40px;
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
 `;

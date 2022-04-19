@@ -12,9 +12,9 @@ import Photography from "./components/Photography/Photography";
 
 function App() {
   return (
-    <Layout>
-      <div className="App">
-        <Router>
+    <div className="App">
+      <Router>
+        <Layout>
           <Routes>
             <Route path="/" exact element={<Hero />}></Route>
             <Route path="experience" element={<Experience />}></Route>
@@ -28,9 +28,9 @@ function App() {
               }
             />
           </Routes>
-        </Router>
-      </div>
-    </Layout>
+        </Layout>
+      </Router>
+    </div>
   );
 }
 

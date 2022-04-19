@@ -8,12 +8,18 @@ const Header = ({ isDarkTheme, themeChangefunc }) => {
   return (
     <Hwrapper>
       <Hcontainer>
-        <Hlogo>DSI</Hlogo>
+        <Hlogo>
+          <Link to="/">DSI</Link>
+        </Hlogo>
         <Hul>
-          <li>{/* <Link to="/">Home</Link> */}</li>
-          <li>{/* <Link to="/experience">Experience</Link> */}</li>
           <li>
-            <a href="/photos">Photography</a>
+            <Link to="/experience">Experience</Link>
+          </li>
+          <li>
+            <Link to="/photos">Photography</Link>
+          </li>
+          <li>
+            <a href="/resume">Resume</a>
           </li>
         </Hul>
         <div>
