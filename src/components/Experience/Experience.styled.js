@@ -17,7 +17,8 @@ export const Econtainer = styled.div`
     flex-direction: row;
     justify-content: center;
     width: 70vw;
-    font-size: 100px;
+    font-size: 7vw;
+    margin-top: 40px;
     margin-bottom: 50px;
     color: ${({ theme }) => theme.colors.primary};
   }

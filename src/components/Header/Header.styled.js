@@ -44,7 +44,7 @@ export const Hul = styled.ul`
       color: ${({ theme }) => theme.colors.primary};
     }
     :hover {
-      border-bottom: 3px solid black;
+      border-bottom: 3px solid ${({ theme }) => theme.colors.primary};
     }
   }
 `;
@@ -58,5 +58,16 @@ export const Hlogo = styled.a`
   a:active {
     text-decoration: none;
     color: inherit;
+  }
+`;
+
+export const MobileIcon = styled.div`
+  display: none;
+  /* margin-left: auto; */
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    align-self: center;
+    color: ${({ theme }) => theme.colors.primary};
   }
 `;

@@ -1,10 +1,11 @@
-import { Hcontainer, Hwrapper, Hul, Hlogo } from "./Header.styled";
+import { Hcontainer, Hwrapper, Hul, Hlogo, MobileIcon } from "./Header.styled";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ToggleButton from "react-theme-toggle-button";
 import "react-theme-toggle-button/dist/index.css";
+import { FaBars } from "react-icons/fa";
 
-const Header = ({ isDarkTheme, themeChangefunc }) => {
+const Header = ({ toggle, isDarkTheme, themeChangefunc }) => {
   return (
     <Hwrapper>
       <Hcontainer>
@@ -25,6 +26,9 @@ const Header = ({ isDarkTheme, themeChangefunc }) => {
         <div>
           <ToggleButton isDark={isDarkTheme} onChange={themeChangefunc} />
         </div>
+        <MobileIcon onClick={toggle}>
+          <FaBars />
+        </MobileIcon>
       </Hcontainer>
     </Hwrapper>
   );

@@ -32,14 +32,14 @@ export const HeroContainer = styled.div`
       font-size: 25px;
     }
     .typist-anime {
-      width: 1400px;
+      width: 80vw;
       height: 400px;
       display: flex;
       justify-content: center;
       align-items: center;
       /* background-color: blue; */
 
-      @media screen and (max-width: 1400px) {
+      /* @media screen and (max-width: 1400px) {
         width: 1100px;
       }
       @media screen and (max-width: 1100px) {
@@ -50,18 +50,18 @@ export const HeroContainer = styled.div`
       }
       @media screen and (max-width: 768px) {
         width: 350px;
-      }
+      } */
       .roles {
-        font-size: 110px;
+        font-size: 7vw;
         color: ${({ theme }) => theme.colors.primary};
-        @media screen and (max-width: 1400px) {
+        /* @media screen and (max-width: 1400px) {
           font-size: 100px;
         }
         @media screen and (max-width: 1100px) {
           font-size: 90px;
         }
         @media screen and (max-width: 768px) {
-          font-size: 40px;
+          font-size: 40px; */
         }
       }
     }
