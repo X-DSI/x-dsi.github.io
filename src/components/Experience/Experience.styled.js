@@ -41,4 +41,10 @@ export const Econtainer = styled.div`
 
 export const Etabs = styled.div`
   width: 80vw;
+
+  .tab-panel {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
 `;

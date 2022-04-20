@@ -5,7 +5,7 @@ import ToggleButton from "react-theme-toggle-button";
 import "react-theme-toggle-button/dist/index.css";
 import { FaBars } from "react-icons/fa";
 
-const Header = ({ toggle, isDarkTheme, themeChangefunc }) => {
+const Header = ({ toggleSideBar, isDarkTheme, themeChangefunc }) => {
   return (
     <Hwrapper>
       <Hcontainer>
@@ -26,7 +26,7 @@ const Header = ({ toggle, isDarkTheme, themeChangefunc }) => {
         <div>
           <ToggleButton isDark={isDarkTheme} onChange={themeChangefunc} />
         </div>
-        <MobileIcon onClick={toggle}>
+        <MobileIcon onClick={toggleSideBar}>
           <FaBars />
         </MobileIcon>
       </Hcontainer>

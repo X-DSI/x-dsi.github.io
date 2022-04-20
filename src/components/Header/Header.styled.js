@@ -28,6 +28,9 @@ export const Hul = styled.ul`
   height: 100%;
   color: ${({ theme }) => theme.colors.primary};
 
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
   li {
     display: flex;
     align-items: center;
@@ -49,7 +52,7 @@ export const Hul = styled.ul`
   }
 `;
 
-export const Hlogo = styled.a`
+export const Hlogo = styled.div`
   font-weight: 900;
   font-size: 40px;
   a,
@@ -63,6 +66,7 @@ export const Hlogo = styled.a`
 
 export const MobileIcon = styled.div`
   display: none;
+  margin: 10px;
   /* margin-left: auto; */
 
   @media screen and (max-width: 768px) {
