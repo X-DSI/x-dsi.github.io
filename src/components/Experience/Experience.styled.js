@@ -13,20 +13,31 @@ export const Ewrapper = styled.div`
 
 export const Econtainer = styled.div`
   .e-roles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70vw;
     font-size: 100px;
     margin-bottom: 50px;
     color: ${({ theme }) => theme.colors.primary};
   }
-
+  li {
+    color: ${({ theme }) => theme.colors.primary};
+  }
   .react-tabs__tab--selected {
     /* background-color: lightblue; */
     /* border-color: red; */
-    background: black;
+    background: ${({ theme }) => theme.colors.secondary};
   }
 
   .react-tabs__tab:focus:after {
-    background: black;
+    background: ${({ theme }) => theme.colors.primary};
+  }
+  .react-tabs__tab-panel {
+    color: ${({ theme }) => theme.colors.primary};
   }
 `;
 
-export const Etabs = styled.div``;
+export const Etabs = styled.div`
+  width: 80vw;
+`;

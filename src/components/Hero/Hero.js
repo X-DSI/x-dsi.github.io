@@ -1,6 +1,12 @@
 import React from "react";
 import { HeroContainer, HeroIcons, HeroWrapper, Icon } from "./Hero.styled";
-import { FaTwitter, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {
+  FaTwitter,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaStackOverflow,
+} from "react-icons/fa";
 import TypeAnimation from "react-type-animation";
 
 const Hero = () => {
@@ -49,6 +55,12 @@ const Hero = () => {
           </Icon>
           <Icon href="https://www.linkedin.com/in/xdsi/" target="_blank">
             <FaLinkedin />
+          </Icon>
+          <Icon
+            href="https://stackoverflow.com/users/18492241/daniel-syles-immanuel"
+            target="_blank"
+          >
+            <FaStackOverflow />
           </Icon>
         </HeroIcons>
       </HeroContainer>

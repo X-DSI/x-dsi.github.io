@@ -41,7 +41,7 @@ export const Hul = styled.ul`
     a:hover,
     a:active {
       text-decoration: none;
-      color: inherit;
+      color: ${({ theme }) => theme.colors.primary};
     }
     :hover {
       border-bottom: 3px solid black;
