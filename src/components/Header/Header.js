@@ -20,6 +20,11 @@ const Header = ({ toggleSideBar, isDarkTheme, themeChangefunc }) => {
             <Link to="/photos">Photography</Link>
           </li>
           <li>
+            <a href="https://x-dsi.com/rubiks-cube/" target="_blank">
+              Rubick's Cube
+            </a>
+          </li>
+          <li>
             <a href="/resume">Resume</a>
           </li>
         </Hul>

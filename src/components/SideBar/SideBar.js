@@ -16,6 +16,7 @@ const SideBar = (props) => {
         </CloseButton>
         <MenuButton>Experience</MenuButton>
         <MenuButton>Photography</MenuButton>
+        <MenuButton>Rubick's Cube</MenuButton>
         <MenuButton>Resume</MenuButton>
       </SideContainer>
     </SideWrapper>
