@@ -6,6 +6,7 @@ import {
   SideWrapper,
 } from "./SideBar.styled";
 import { FaWindowClose } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const SideBar = (props) => {
   return (
@@ -14,10 +15,20 @@ const SideBar = (props) => {
         <CloseButton>
           <FaWindowClose onClick={props.toggleSideBar}></FaWindowClose>
         </CloseButton>
-        <MenuButton>Experience</MenuButton>
-        <MenuButton>Photography</MenuButton>
-        <MenuButton>Rubick's Cube</MenuButton>
-        <MenuButton>Resume</MenuButton>
+        <MenuButton>
+          <Link to="/experience">Experience</Link>
+        </MenuButton>
+        <MenuButton>
+          <Link to="/photos">Photography</Link>
+        </MenuButton>
+        <MenuButton>
+          <a href="https://x-dsi.com/rubiks-cube/" target="_blank">
+            Rubick's Cube
+          </a>
+        </MenuButton>
+        <MenuButton>
+          <a href="/resume">Resume</a>
+        </MenuButton>
       </SideContainer>
     </SideWrapper>
   );
