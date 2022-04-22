@@ -46,5 +46,10 @@ export const Etabs = styled.div`
     display: flex;
     align-items: center;
     gap: 20px;
+
+    @media screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 `;
