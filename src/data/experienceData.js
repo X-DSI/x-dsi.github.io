@@ -25,14 +25,14 @@ const experienceData = [
     Bennette University. Worked on some crazy AI/ML Video Object
     segmentation using the OSVOS model in real time. The project was
     trained using on of the India's fastest supercomputers.`,
-    img: cwebsite,
+    img: leadingindia,
   },
   {
     title: "IoT - Hydrogen Computer",
     description: `This was my final year project. I developed a IoT Platform to
     control and Monitor HHO Production Device for the production of
     Electricity.`,
-    img: cwebsite,
+    img: leadingindia,
   },
 ];
 

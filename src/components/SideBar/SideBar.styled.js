@@ -4,7 +4,7 @@ export const SideWrapper = styled.div`
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-color: aqua;
+  background-color: ${({ theme }) => theme.colors.secondary};
   z-index: 9;
 
   opacity: ${(props) => (props.isOpen ? "100%" : "0%")};
@@ -18,15 +18,39 @@ export const SideContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  .resume-button {
+    border-radius: 25px;
+    border: 2px solid ${({ theme }) => theme.colors.primary};
+    padding: 20px;
+  }
 `;
 
 export const MenuButton = styled.button`
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  text-decoration: none;
   margin: 24px;
+  list-style: none;
+  text-align: center;
+  font-size: 30px;
+  color: ${({ theme }) => theme.colors.primary};
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.primary};
+  }
 `;
 
 export const CloseButton = styled.div`
   position: absolute;
   top: 0px;
   right: 0px;
-  margin: 24px;
+  margin: 45px;
+  color: ${({ theme }) => theme.colors.primary};
+
+  svg {
+  }
 `;

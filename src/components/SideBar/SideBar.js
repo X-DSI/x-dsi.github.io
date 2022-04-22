@@ -16,18 +16,27 @@ const SideBar = (props) => {
           <FaWindowClose onClick={props.toggleSideBar}></FaWindowClose>
         </CloseButton>
         <MenuButton>
-          <Link to="/experience">Experience</Link>
+          <Link to="/experience" onClick={props.toggleSideBar}>
+            Experience
+          </Link>
         </MenuButton>
         <MenuButton>
-          <Link to="/photos">Photography</Link>
+          <Link to="/photos" onClick={props.toggleSideBar}>
+            Photography
+          </Link>
         </MenuButton>
-        <MenuButton>
+        <MenuButton onClick={props.toggleSideBar}>
           <a href="https://x-dsi.com/rubiks-cube/" target="_blank">
             Rubick's Cube
           </a>
         </MenuButton>
-        <MenuButton>
-          <a href="/resume">Resume</a>
+        <MenuButton className="resume-button">
+          <a
+            href="https://drive.google.com/file/d/1U1pvYO2CjUbB8y9rDg-6taBzobr5s7Aa/view?usp=sharing"
+            target="_blank"
+          >
+            Resume
+          </a>
         </MenuButton>
       </SideContainer>
     </SideWrapper>

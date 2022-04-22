@@ -24,11 +24,16 @@ const Header = ({ toggleSideBar, isDarkTheme, themeChangefunc }) => {
               Rubick's Cube
             </a>
           </li>
-          <li>
-            <a href="/resume">Resume</a>
+          <li className="resume-button">
+            <a
+              href="https://drive.google.com/file/d/1U1pvYO2CjUbB8y9rDg-6taBzobr5s7Aa/view?usp=sharing"
+              target="_blank"
+            >
+              Resume
+            </a>
           </li>
         </Hul>
-        <div>
+        <div className="togglebutton">
           <ToggleButton isDark={isDarkTheme} onChange={themeChangefunc} />
         </div>
         <MobileIcon onClick={toggleSideBar}>

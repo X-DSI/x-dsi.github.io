@@ -16,6 +16,15 @@ export const Hcontainer = styled.nav`
   width: 100%;
   height: 100%;
   color: ${({ theme }) => theme.colors.primary};
+
+  .togglebutton {
+    margin: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+  }
 `;
 
 export const Hul = styled.ul`
@@ -27,6 +36,12 @@ export const Hul = styled.ul`
   font-size: 20px;
   height: 100%;
   color: ${({ theme }) => theme.colors.primary};
+
+  .resume-button {
+    border-radius: 25px;
+    border: 2px solid ${({ theme }) => theme.colors.primary};
+    padding: 20px;
+  }
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -55,6 +70,7 @@ export const Hul = styled.ul`
 export const Hlogo = styled.div`
   font-weight: 900;
   font-size: 40px;
+  margin: 20px;
   a,
   a:visited,
   a:hover,
