@@ -78,15 +78,15 @@ export const Icon = styled.a`
   color: inherit;
   border-bottom: none;
   transition: all 0.3s linear;
-  :hover {
+  /* :hover {
     border-bottom: 3px solid black;
-  }
+  } */
   svg {
     position: relative;
     bottom: 0px;
     width: 30px;
     height: 30px;
-    margin: 0 40px;
+    margin: 0 60px;
 
     @media screen and (max-width: 768px) {
       margin: 0 30px;
