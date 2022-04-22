@@ -19,7 +19,7 @@ export const HeroContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
 
   height: 100%;
 
@@ -87,6 +87,10 @@ export const Icon = styled.a`
     width: 30px;
     height: 30px;
     margin: 0 40px;
+
+    @media screen and (max-width: 768px) {
+      margin: 0 30px;
+    }
 
     :hover {
       bottom: 6px;

@@ -21,6 +21,19 @@ export const Hcontainer = styled.nav`
     margin: 20px;
   }
 
+  .desktop-dsi {
+    display: flex;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .mobile-dsi {
+    display: none;
+    @media screen and (max-width: 768px) {
+      display: flex;
+    }
+  }
   @media screen and (max-width: 768px) {
     display: flex;
     justify-content: space-around;
@@ -89,5 +102,9 @@ export const MobileIcon = styled.div`
     display: flex;
     align-self: center;
     color: ${({ theme }) => theme.colors.primary};
+    .fabars {
+      width: 30px;
+      height: 30px;
+    }
   }
 `;

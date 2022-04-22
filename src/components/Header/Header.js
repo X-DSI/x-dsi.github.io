@@ -9,7 +9,7 @@ const Header = ({ toggleSideBar, isDarkTheme, themeChangefunc }) => {
   return (
     <Hwrapper>
       <Hcontainer>
-        <Hlogo>
+        <Hlogo className="desktop-dsi">
           <Link to="/">DSI</Link>
         </Hlogo>
         <Hul>
@@ -36,8 +36,11 @@ const Header = ({ toggleSideBar, isDarkTheme, themeChangefunc }) => {
         <div className="togglebutton">
           <ToggleButton isDark={isDarkTheme} onChange={themeChangefunc} />
         </div>
+        <Hlogo className="mobile-dsi">
+          <Link to="/">DSI</Link>
+        </Hlogo>
         <MobileIcon onClick={toggleSideBar}>
-          <FaBars />
+          <FaBars className="fabars" />
         </MobileIcon>
       </Hcontainer>
     </Hwrapper>

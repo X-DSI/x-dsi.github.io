@@ -4,6 +4,7 @@ export const SideWrapper = styled.div`
   position: fixed;
   width: 100vw;
   height: 100vh;
+  transition: all 0.3s linear;
   background-color: ${({ theme }) => theme.colors.secondary};
   z-index: 9;
 
@@ -52,5 +53,7 @@ export const CloseButton = styled.div`
   color: ${({ theme }) => theme.colors.primary};
 
   svg {
+    width: 30px;
+    height: 30px;
   }
 `;

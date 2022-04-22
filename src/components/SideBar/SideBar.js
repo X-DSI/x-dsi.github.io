@@ -16,6 +16,11 @@ const SideBar = (props) => {
           <FaWindowClose onClick={props.toggleSideBar}></FaWindowClose>
         </CloseButton>
         <MenuButton>
+          <Link to="/" onClick={props.toggleSideBar}>
+            DSI
+          </Link>
+        </MenuButton>
+        <MenuButton>
           <Link to="/experience" onClick={props.toggleSideBar}>
             Experience
           </Link>
