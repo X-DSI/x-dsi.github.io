@@ -5,6 +5,7 @@ export const Ewrapper = styled.div`
   justify-content: center;
   width: 100%;
   height: 100vh;
+  max-height: max(100vh, 100%);
   margin-top: -80px;
   padding-top: 80px;
   margin-bottom: -30px;

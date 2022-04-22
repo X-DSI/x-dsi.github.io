@@ -3,7 +3,6 @@ import { Etabs, Ewrapper, Econtainer } from "./Experience.styled";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import TypeAnimation from "react-type-animation";
-import leadingindia from "../../data/images/Leading-india-logo.png";
 import experienceData from "../../data/experienceData";
 const Experience = () => {
   return (
