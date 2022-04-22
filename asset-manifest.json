@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.eb017731.css",
-    "main.js": "/static/js/main.51d11ed9.js",
+    "main.js": "/static/js/main.3506d522.js",
     "static/js/787.e1515f58.chunk.js": "/static/js/787.e1515f58.chunk.js",
     "static/media/gpt-Logo.webp": "/static/media/gpt-Logo.9af189b1922169cf9cfa.webp",
-    "static/media/Leading-india-logo.png": "/static/media/Leading-india-logo.2653d9b146d648ff4f36.png",
+    "static/media/Leading-india-logo.png": "/static/media/Leading-india-logo.166fd8e24f75aff9262a.png",
     "index.html": "/index.html",
     "main.eb017731.css.map": "/static/css/main.eb017731.css.map",
-    "main.51d11ed9.js.map": "/static/js/main.51d11ed9.js.map",
+    "main.3506d522.js.map": "/static/js/main.3506d522.js.map",
     "787.e1515f58.chunk.js.map": "/static/js/787.e1515f58.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb017731.css",
-    "static/js/main.51d11ed9.js"
+    "static/js/main.3506d522.js"
   ]
 }
