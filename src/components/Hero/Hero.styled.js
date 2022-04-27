@@ -88,7 +88,7 @@ export const Icon = styled.a`
     margin: 0 60px;
 
     @media screen and (max-width: 768px) {
-      margin: 0 30px;
+      margin: 0 20px;
     }
 
     :hover {

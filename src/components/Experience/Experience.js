@@ -29,13 +29,13 @@ const Experience = () => {
         <Etabs>
           <Tabs forceRenderTabPanel defaultIndex={0}>
             <TabList>
-              {experienceData.map((item, i) => (
+              {experienceData.map((item) => (
                 <Tab key={item.title + "tab"}>{item.title}</Tab>
               ))}
               {/* <Tab>Freelancing Projects</Tab> */}
             </TabList>
 
-            {experienceData.map((item, i) => (
+            {experienceData.map((item) => (
               <TabPanel key={item.title + "panel"}>
                 <div className="tab-panel">
                   <img src={item.img} alt="" />

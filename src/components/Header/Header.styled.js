@@ -36,7 +36,7 @@ export const Hcontainer = styled.nav`
   }
   @media screen and (max-width: 768px) {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 `;
 
@@ -101,6 +101,7 @@ export const MobileIcon = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     align-self: center;
+    margin: 20px;
     color: ${({ theme }) => theme.colors.primary};
     .fabars {
       width: 30px;
