@@ -6,9 +6,7 @@ import hilifeai from "./images/Hilifeai logo.png";
 const experienceData = [
   {
     title: "Senior Software Developer",
-    description: `Designed and developed a website for the Government Polytechnic
-    College that I studied in, for information interchange with the
-    students and parents.`,
+    description: `Developing CRM for Small-scale Enterprise using the MERN Stack and also Head of Internship Training`,
     img: hilifeai,
   },
   {
