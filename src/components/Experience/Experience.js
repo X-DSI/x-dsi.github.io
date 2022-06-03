@@ -13,11 +13,11 @@ const Experience = () => {
           <TypeAnimation
             cursor={true}
             sequence={[
+              "Work...",
+              3000,
               "Internship...",
               3000,
               "Experience...",
-              3000,
-              "Work...",
               3000,
               "Projects...",
               3000,

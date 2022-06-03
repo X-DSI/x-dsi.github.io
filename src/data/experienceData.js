@@ -1,8 +1,16 @@
 import cwebsite from "./images/gpt-Logo.webp";
 import sengine from "./images/New-dreams-logo.jpg";
 import leadingindia from "./images/Leading-india-logo.png";
+import hilifeai from "./images/Hilifeai logo.png";
 
 const experienceData = [
+  {
+    title: "Senior Software Developer",
+    description: `Designed and developed a website for the Government Polytechnic
+    College that I studied in, for information interchange with the
+    students and parents.`,
+    img: hilifeai,
+  },
   {
     title: "College Website",
     description: `Designed and developed a website for the Government Polytechnic
