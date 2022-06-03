@@ -52,5 +52,10 @@ export const Etabs = styled.div`
       display: flex;
       flex-direction: column;
     }
+
+    img {
+      width: 250px;
+      height: 200px;
+    }
   }
 `;

@@ -38,7 +38,7 @@ const Experience = () => {
             {experienceData.map((item) => (
               <TabPanel key={item.title + "panel"}>
                 <div className="tab-panel">
-                  <img src={item.img} alt="" width="250 px" height="200 px" />
+                  <img src={item.img} alt="" />
                   <h2>{item.description}</h2>
                 </div>
               </TabPanel>
