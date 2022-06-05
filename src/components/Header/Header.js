@@ -14,7 +14,7 @@ const Header = ({ toggleSideBar, isDarkTheme, themeChangefunc }) => {
         </Hlogo>
         <Hul>
           <li>
-            <Link to="/experience">Experience</Link>
+            <Link to="/experience">Work</Link>
           </li>
           <li>
             <Link to="/photos">Photography</Link>
@@ -29,7 +29,7 @@ const Header = ({ toggleSideBar, isDarkTheme, themeChangefunc }) => {
               href="https://drive.google.com/file/d/1U1pvYO2CjUbB8y9rDg-6taBzobr5s7Aa/view?usp=sharing"
               target="_blank"
             >
-              Resume
+              CV
             </a>
           </li>
         </Hul>
