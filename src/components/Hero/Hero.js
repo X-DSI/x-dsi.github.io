@@ -24,17 +24,17 @@ const Hero = () => {
               <TypeAnimation
                 cursor={true}
                 sequence={[
-                  "a Developer...",
+                  "a Developer..",
                   2000,
-                  "a Photographer...",
+                  "a Photographer..",
                   2000,
-                  "an Editor...",
+                  "an Editor..",
                   2000,
-                  "a DOP...",
+                  "a DOP..",
                   2000,
-                  "a Colorist...",
+                  "a Colorist..",
                   2000,
-                  "a Human Being...",
+                  "a Human Being..",
                   2000,
                 ]}
                 wrapper="a"
