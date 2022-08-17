@@ -14,7 +14,7 @@ function App() {
             <Route path="/" exact element={<Hero />}></Route>
             <Route path="experience" element={<Experience />}></Route>
             <Route path="photos" element={<Photography />}></Route>
-            <Route
+            <Route 
               path="*"
               element={
                 <main style={{ padding: "1rem" }}>
